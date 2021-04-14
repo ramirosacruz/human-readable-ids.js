@@ -24,7 +24,10 @@
       lang: "en",
     };
     constructor(props) {
-      this.props = props;
+      this.props = {
+        ...this.props,
+        ...props,
+      };
     }
     random() {
       if (!adjectives.length) {
