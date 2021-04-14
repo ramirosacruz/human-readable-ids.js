@@ -44,7 +44,7 @@ npm install --save human-readable-ids
 
 ```bash
 # directly from git
-npm install --save https://git.coolaj86.com/coolaj86/human-readable-ids.js.git
+npm install --save https://github.com/ramirosacruz/human-readable-ids.js
 ```
 
 ```javascript
