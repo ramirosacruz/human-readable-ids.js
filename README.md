@@ -1,5 +1,7 @@
 human-readable-ids-js
 =====================
+You can see the initial project in
+https://git.coolaj86.com/coolaj86/human-readable-ids.js.git
 
 Use JavaScript to generate human-readable ids from a lists of nouns and adjectives.
 
@@ -131,5 +133,4 @@ number of ids.
 
   * `adjective noun number`
   * `number adjective noun verb`
-# human-readable-ids.js
 
