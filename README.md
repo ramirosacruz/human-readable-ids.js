@@ -36,14 +36,8 @@ Usage
 =======
 
 ### npm
-
+ 
 ```bash
-# from npm
-npm install --save human-readable-ids
-```
-
-```bash
-# directly from git
 npm install --save https://github.com/ramirosacruz/human-readable-ids.js
 ```
 
