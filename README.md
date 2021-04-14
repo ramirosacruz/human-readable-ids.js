@@ -50,13 +50,15 @@ npm install --save https://github.com/ramirosacruz/human-readable-ids.js
 ```javascript
 'use strict';
 
-var hri = require('human-readable-ids').hri;
-var i;
+const { HumanReadableIds } = require("human-readable-ids");
+let i;
 
+const humanReadableIds = new HumanReadableIds({ lang: "es" });
 // generate 100 random ids
 for (i = 0; i < 100; i += 1) {
-  console.log(hri.random());
+  console.log(humanReadableIds.random());
 }
+ 
 ```
 
 ### bower / browser
@@ -76,12 +78,14 @@ bower install --save human-readable-ids
 ;(function (exports) {
   'use strict';
 
-  var hri = exports.humanReadableIds || require('human-readable-ids').hri;
-  var i;
+   const { HumanReadableIds } = require("human-readable-ids");
+   let i;
 
-  for (i = 0; i < 100; i += 1) {
-    console.log(hri.random());
-  }
+   const humanReadableIds = new HumanReadableIds({ lang: "es" });
+   // generate 100 random ids
+   for (i = 0; i < 100; i += 1) {
+     console.log(humanReadableIds.random());
+   }
 }('undefined' !== typeof exports && exports || new Function('return this')()));
 ```
 
